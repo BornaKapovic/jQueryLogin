@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/56072116d1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+  
+    <form id="mainForm">
+        <div class="input-container" ><input name="email" placeholder="e-mail" type="text" required></div>
+            <div class="input-container" id="password-container">
+                <i class="fas fa-eye" id="toggle_password"></i>
+                <input id="password" class="password" name="password" placeholder="password" type="password" required>
+        </div>
+        
+        <div class="input-container"><input class="password" name="repeat" placeholder="repeat password" type="password"
+                required>
+        </div>
+        <div class="input-container"><input name="phone" placeholder="phone number (optional)" type="text"></div>
+
+
+
+        <button type="submit">LOGIN</button>
+    </form>
+
+</body>
+
+</html>
